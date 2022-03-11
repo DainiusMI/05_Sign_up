@@ -1,0 +1,63 @@
+
+/* nusako savybes visiems elementams, kaip default settingu priskyrimas */
+body *, body { 
+    box-sizing: border-box; 
+    margin: 0;  
+    padding: 0;
+    vertical-align: top;
+}
+body {background-color: rgb(120, 206, 206)}
+
+/* meet selector classes, VAIKINIAI ELEMENTAI TAIP PAT PAVELDI JU SAVYBES 
+    galima kreiptis i klases kaip i tagus .tevas > .vaikas {}
+*/
+.container {
+    display: inline-block;
+    width: 800px;
+    margin-top: 100px;
+    margin-left: calc(50% - 400px);
+    
+}
+
+.colummleft {
+    width: 40%;
+    float:left;
+    padding: 40px;
+    background-color: blueviolet;
+    background-image: url(../img/hill.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    margin-top: 20px;
+    color: #fff;
+}
+.main-title {
+    display: inline-block;
+    width: 100%;
+    text-transform: capitalize;
+}
+.bottom-links {
+    display: inline-block;
+    width: 100%;
+
+}
+.bottom-links > .link {
+    color: #fff;
+    font-size: 14px;
+}
+.bottom-links > symbol {
+
+}
+.colummright {  
+    width: 60%;
+    float:left;
+    padding: 60px;
+    background-color: #fff;
+    color: black;
+
+}
+.close {
+    display: inline-block;
+    background-color: red;
+}

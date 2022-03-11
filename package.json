@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "live-server",
+    "dev": "live-server --host=localhost --port=3005",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

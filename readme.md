@@ -1,0 +1,2 @@
+- link to website: https://dainiusmi.github.io/05_Sign_up/
+- link to design: https://cdn.discordapp.com/attachments/850245533838868480/850246368214908970/day1dr.png

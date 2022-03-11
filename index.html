@@ -5,8 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up</title>
+    <!-- KOMPONENTAI, nedideli .css darbai konkretiems komponentams -->
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/button.css">
+    <!-- BENDRINIO POBUDZIO STILIUS, !!!KOMPONENTUS DETI AUKSCIAU STILIAUS-->
+    <link rel="stylesheet" href="./css/main.css">
+    
 </head>
 <body>
-    
+   <mai class="container"n>
+        <div class="colummleft">
+            <H1 class="main-title">sign up</H1>
+                <div class="bottom-links">
+                 <a class="link" href="#">privacy policy</a>
+                 <!-- sepecialus simboliai potencialiai
+                 gadinantys logine kodo prasme iskyrimai
+                zenklu & pacio "&" atveju teks
+                zr zemiau-->
+                 &amp;
+                <!-- galima ir i <span> &amp <span>-->
+                <a class="link" href="#">tems of service</a>
+                 </div>
+        </div>
+        <div class="colummright">
+            <div class="close">X</div>
+            <form class="form">
+               <!-- .formrow*5-->
+               <div class="form-row">
+                   <label for="username">username</label>
+                   <input type="text" placeholder="Enter your username">
+               </div>
+               <div class="form-row">
+                   <label for="email">email</label>
+                   <input type="text" placeholder="Enter your e-mail adress">
+               </div>
+               <div class="form-row">
+                   <label for="password">password</label>
+                   <input type="password" placeholder="Enter your password">
+               </div>
+               <div class="form-row">
+                   <label for="repeat password">repeat your password</label>
+                   <input type="password" placeholder="Repeat your password">
+               </div>
+               <div class="form-row">
+
+               </div>
+              
+            </form>
+            
+        </div>
+
+   </main> 
 </body>
 </html>
