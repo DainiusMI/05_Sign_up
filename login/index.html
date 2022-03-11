@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign up</title>
+    <title>Login</title>
     <!-- KOMPONENTAI, nedideli .css darbai konkretiems komponentams -->
-    <link rel="stylesheet" href="./css/form.css">
-    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/button.css">
     <!-- BENDRINIO POBUDZIO STILIUS, !!!KOMPONENTUS DETI AUKSCIAU STILIAUS-->
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
     
 </head>
 <body>
     <div class="backgronnd-div"></div>
    <main class="container">
         <div class="colummleft">
-            <H1 class="main-title">sign up</H1>
+            <H1 class="main-title">Login</H1>
                 <div class="bottom-links">
                  <a class="link" href="#">privacy policy</a>
                     <!-- sepecialus simboliai potencialiai
@@ -40,22 +40,16 @@
                     tikfla "for=value" su input parametru "id=value"
                    -->
                </div>
-               <div class="form-row">
-                   <label for="email">Email</label>
-                   <input id="email" type="text" placeholder="Enter your e-mail adress" required>
-               </div>
+
                <div class="form-row">
                    <label for="pass">Password</label>
                    <input id="pass" type="password" placeholder="Enter your password" required>
                </div>
+
                <div class="form-row">
-                   <label for="re-pass">Repeat your Password</label>
-                   <input id="re-pass" type="password" placeholder="Repeat your password" required>
-               </div>
-               <div class="form-row">
-                    <button type="submit" class="btn">Get started</button>
+                    <button type="submit" class="btn">Login</button>
                     <span>or</span>
-                    <a href="./login">Login</a>
+                    <a href="../forgot-pass/">Forgot password</a>
                </div>
               
             </form>

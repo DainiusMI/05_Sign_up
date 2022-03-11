@@ -1,0 +1,32 @@
+.btn { 
+    display: inline-block;
+    border: none;
+    
+    line-height: 20px;
+    border-radius: 25px;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: auto;
+    /*width: auto !important;
+        galima bet reik vengti
+    */
+    background: rgb(27,18,176);
+    background: 
+    linear-gradient(    90deg,
+        rgba(27,18,176,1) 0%,
+        rgba(0,212,255,1) 100%);
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.btn:hover{
+    background: 
+    linear-gradient(    90deg,
+        rgb(253, 253, 253) 0%,
+        rgb(0, 98, 255) 100%);
+     outline: 3px solid blue;
+     color: black;
+}
+/* https://cssgradient.io/ *?
